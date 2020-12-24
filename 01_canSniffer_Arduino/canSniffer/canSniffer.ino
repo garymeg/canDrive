@@ -80,7 +80,7 @@ void CANsimulate(void) {
     int changeByte = random(4);
     if (changeByte == 0) {
       sampleData[i] = random(256);
-    }
+    } 
     txPacket.dataArray[i] = sampleData[i];
   }
 

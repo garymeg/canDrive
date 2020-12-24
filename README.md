@@ -7,6 +7,7 @@ https://docs.google.com/spreadsheets/d/1eBKiTwEE6aPnfw2EfSHItLeMz00fJq0Y0L99Ym7f
 
 # Content
 - 01_canSniffer_Arduino: This code runs on your arduino sniffer device and creates an interface between the car and the GUI.
+-    All Library Files are in the Arduino folder DO NOT move them as they are set up for 8Mhz Mcp2515
 - 02_canSniffer_GUI: Powerful and easy-to-use graphical sniffer application used for reverse engineering CAN packets. 
 # Description
 ##### 01_canSniffer_Arduino
@@ -14,8 +15,8 @@ This code creates the interface between the car and the canSniffer_GUI applicati
  Required arduino packages: 
 - CAN by Sandeep Mistry (https:github.com/sandeepmistry/arduino-CAN)
 
-Required modifications: 
-- MCP2515.h: 16e6 clock frequency reduced to 8e6 (depending on MCP2515 clock)
+Required modifications:
+- MCP2515.h: 16e6 clock frequency reduced to 8e6 (depending on MCP2515 clock is set for 8 Mhz)
 - MCP2515.cpp: extend CNF_MAPPER with your desired CAN speeds
 
 ##### 02_canSniffer_GUI
@@ -27,3 +28,4 @@ $ pip install -r requirements.txt
 - Hardware files for the custom OBD2 module.
 - Firmware projects for the custom OBD2 module.
 - Source code for the mobile application.
+

@@ -236,6 +236,11 @@
                  <string>CAN_H</string>
                 </property>
                </item>
+               <item>
+                <property name="text">
+                 <string>DAF</string>
+                </property>
+               </item>
               </widget>
              </item>
             </layout>

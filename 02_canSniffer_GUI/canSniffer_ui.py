@@ -1090,6 +1090,7 @@ class Ui_MainWindow(object):
         self.activeChannelComboBox.setItemText(0, _translate("MainWindow", "CAN_L"))
         self.activeChannelComboBox.setItemText(1, _translate("MainWindow", "CAN_M"))
         self.activeChannelComboBox.setItemText(2, _translate("MainWindow", "CAN_H"))
+        self.activeChannelComboBox.setItemText(3, _translate("MainWindow", "DAF"))
         self.label.setText(_translate("MainWindow", "Playback delay "))
         self.autoclearCheckBox.setText(_translate("MainWindow", "Auto clear"))
         self.showSendingTableCheckBox.setText(_translate("MainWindow", "Show TX table"))

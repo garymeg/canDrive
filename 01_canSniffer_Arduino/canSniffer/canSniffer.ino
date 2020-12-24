@@ -33,7 +33,7 @@ typedef struct {
   byte dataArray[20];
 } packet_t;
 
-const char SEPARATOR = ',';
+const char SEPARATOR = ','; 
 const char TERMINATOR = '\n';
 const char RXBUF_LEN = 100;
 //------------------------------------------------------------------------------
